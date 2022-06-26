@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'torch,
+        'torch',
         'librosa',
         'museval',
         'h5py',
