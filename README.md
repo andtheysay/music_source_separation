@@ -13,14 +13,14 @@ Install Python 3.7.
 Sometimes the installation of bytesep will fail when using higher versions of Python. Suggest to use conda (or other environment manage tools) to manage the packages.
 
 ```bash
-pip install bytesep==0.1.1
+python3 -m pip install git+https://github.com/andtheysay/music_source_separation
 ```
 
 ## Separation
 After installation, to separate your favorite song is easy. Users can execute the following commands in any directory.
 
 ```bash
-python3 -m bytesep download_checkpoints
+python3 -m bytesep download-checkpoints
 ```
 
 ```bash
