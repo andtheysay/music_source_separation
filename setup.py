@@ -11,7 +11,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'torch',
-        'librosa',
+        'librosa==0.8.0',
         'museval',
         'h5py',
         'pytorch_lightning',
