@@ -16,7 +16,7 @@ setup(
         'h5py',
         'pytorch_lightning',
         'numpy',
-        'torchlibrosa',
+        'torchlibrosa==0.0.9',
         'matplotlib',
         'musdb',
         'museval',
